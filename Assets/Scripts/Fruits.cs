@@ -8,7 +8,7 @@ public class Fruits : MonoBehaviour
     private Rigidbody2D fruitsRigidbody2D;
 
     // 落ちている状態かどうか
-    private bool isDrop = false;
+    public bool isDrop = false;
 
     // フルーツの移動できる最小X軸
     private const float FRUIT_IDODEKIRU_SAISHO_X_VALUE = 0f;

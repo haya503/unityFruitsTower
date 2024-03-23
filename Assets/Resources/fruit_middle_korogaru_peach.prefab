@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3514820996606017541}
   - component: {fileID: 3511974805040723637}
   - component: {fileID: 6045155896765451859}
+  - component: {fileID: 2707314656108609492}
   m_Layer: 0
   m_Name: fruit_middle_korogaru_peach
   m_TagString: Fruits
@@ -28,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2702252631189792847}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.0322924, y: -0.123899244, z: 0.040280797}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 0
@@ -146,9 +147,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.11024654}
   serializedVersion: 2
-  m_Radius: 2
+  m_Radius: 1.6692607
 --- !u!114 &6045155896765451859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161,3 +162,71 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 322994666d42cf24c81691f0e27d5670, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!68 &2707314656108609492
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2702252631189792847}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 2.0259056, y: 0.1508637}
+  - {x: 2.0240183, y: -0.28792256}
+  - {x: 1.9390553, y: -0.7187838}
+  - {x: 1.8473071, y: -0.97611535}
+  - {x: 1.5327648, y: -1.3821759}
+  - {x: 1.3812306, y: -1.5697832}
+  - {x: 1.0122112, y: -1.8691049}
+  - {x: 0.44319037, y: -2.0092728}
+  - {x: -0.077986255, y: -2.0637674}
+  - {x: -0.6533284, y: -1.8002012}
+  - {x: -1.278101, y: -1.6861513}
+  - {x: -1.5834118, y: -1.4430581}
+  - {x: -1.9243298, y: -0.91105413}
+  - {x: -2.095705, y: -0.4946887}
+  - {x: -2.1445634, y: -0.092206374}
+  - {x: -2.1054306, y: 0.487405}
+  - {x: -1.9129349, y: 1.0207584}
+  - {x: -1.722472, y: 1.2881421}
+  - {x: -1.2726858, y: 1.5751249}
+  - {x: -0.82775706, y: 1.756602}
+  - {x: -0.37513363, y: 1.7978802}
+  - {x: 0.041471004, y: 1.8219672}
+  - {x: 0.2686171, y: 1.8102403}
+  - {x: 0.50787175, y: 1.88155}
+  - {x: 1.1552702, y: 1.6420037}
+  - {x: 1.5202572, y: 1.3508208}
+  - {x: 1.8023939, y: 1.0032613}
+  - {x: 1.9543779, y: 0.6990941}
+  - {x: 2.0358055, y: 0.17407337}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0

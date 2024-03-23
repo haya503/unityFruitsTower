@@ -53,7 +53,7 @@ public class Slot : MonoBehaviour
 
     // 次の次の次のフルーツ(フルーツ3)の値設定
     private void nextFruits3ValueSet() {
-        Debug.Log("nextFruits3ValueSetとおり");
+        // Debug.Log("nextFruits3ValueSetとおり");
         NextFruits3.Instance.isNext = true;
         NextFruits3.Instance.fruitsPrehabIndex = fruitsDisplayRenban;
     }

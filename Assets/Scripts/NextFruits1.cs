@@ -57,7 +57,7 @@ public class NextFruits1 : MonoBehaviour
 
     // ゲーム内のフルーツの値設定
     private void GameMainValueSet() {
-        Debug.Log("gameMainValueSetとおり");
+        // Debug.Log("gameMainValueSetとおり");
         GameMain.Instance.fruitsPrehabIndex = fruitsNowPrehabIndex;
         GameMain.Instance.isNext = true;
     }

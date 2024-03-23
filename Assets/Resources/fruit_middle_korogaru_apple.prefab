@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5313277169990942656}
   - component: {fileID: 5620806826044591612}
   - component: {fileID: 288417610538515382}
+  - component: {fileID: 2704927189482992724}
   m_Layer: 0
   m_Name: fruit_middle_korogaru_apple
   m_TagString: Fruits
@@ -28,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8867796778059898545}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.0322924, y: -0.123899244, z: 0.040280797}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.5}
   m_ConstrainProportionsScale: 0
@@ -146,9 +147,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.03310998, y: 0}
   serializedVersion: 2
-  m_Radius: 2
+  m_Radius: 1.7152531
 --- !u!114 &288417610538515382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161,3 +162,75 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 322994666d42cf24c81691f0e27d5670, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!68 &2704927189482992724
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8867796778059898545}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 1.181823, y: 1.7746919}
+  - {x: 0.8728231, y: 1.9214734}
+  - {x: 0.61413425, y: 1.9750059}
+  - {x: -0.020148098, y: 1.9454731}
+  - {x: 0.017673008, y: 2.2605226}
+  - {x: -0.06049172, y: 2.302771}
+  - {x: -0.2667174, y: 2.181879}
+  - {x: -0.22565538, y: 1.9557214}
+  - {x: -0.47367263, y: 1.9071319}
+  - {x: -1.0538753, y: 1.8019649}
+  - {x: -1.3597713, y: 1.5590844}
+  - {x: -1.6911141, y: 1.1690284}
+  - {x: -1.8867222, y: 0.57843864}
+  - {x: -1.9709096, y: -0.019638337}
+  - {x: -1.895887, y: -0.39265686}
+  - {x: -1.8100817, y: -0.7341191}
+  - {x: -1.6813009, y: -0.9874444}
+  - {x: -1.4679623, y: -1.2501848}
+  - {x: -1.1617343, y: -1.5167669}
+  - {x: -0.7885695, y: -1.6797919}
+  - {x: -0.42918852, y: -1.7799866}
+  - {x: -0.025948077, y: -1.8230299}
+  - {x: 0.25187632, y: -1.8164488}
+  - {x: 0.5844177, y: -1.7212825}
+  - {x: 1.1034899, y: -1.4948349}
+  - {x: 1.3538183, y: -1.2789365}
+  - {x: 1.5215124, y: -1.037529}
+  - {x: 1.8130171, y: -0.37287685}
+  - {x: 1.8898563, y: 0.35133743}
+  - {x: 1.8140948, y: 0.8545828}
+  - {x: 1.573497, y: 1.381658}
+  - {x: 1.2239532, y: 1.7385658}
+  - {x: 1.1756024, y: 1.7879357}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0

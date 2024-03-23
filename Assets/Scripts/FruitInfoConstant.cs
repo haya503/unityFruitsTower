@@ -21,4 +21,7 @@ public class FruitInfoConstant
         ,{"パイナップル", "fruit_long_korogaranai_pineapple"}
         ,{"バナナ", "fruit_long_hennakatachi_banana"}
     };
+
+    // クリアライン
+    public static int CLEAR_LINE_HEIGHT = 7;
 }

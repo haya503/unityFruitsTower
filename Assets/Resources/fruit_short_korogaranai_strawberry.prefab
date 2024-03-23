@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7522498026984029744}
   - component: {fileID: 1792082569281175375}
   - component: {fileID: 6110214899749877892}
+  - component: {fileID: 2906395967589926412}
   m_Layer: 0
   m_Name: fruit_short_korogaranai_strawberry
   m_TagString: Fruits
@@ -28,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4186512638577188152}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.0322924, y: -0.123899244, z: 0.040280797}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
@@ -146,9 +147,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.038309097, y: 0}
   serializedVersion: 2
-  m_Radius: 2
+  m_Radius: 1.1763668
 --- !u!114 &6110214899749877892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161,3 +162,96 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 322994666d42cf24c81691f0e27d5670, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!68 &2906395967589926412
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4186512638577188152}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 0.124132395, y: -2.308087}
+  - {x: -0.0709813, y: -2.2974522}
+  - {x: -0.3006475, y: -2.1116145}
+  - {x: -0.5422251, y: -1.7693969}
+  - {x: -1.3387839, y: -0.68592525}
+  - {x: -1.5710179, y: -0.1532338}
+  - {x: -1.6732637, y: 0.18017131}
+  - {x: -1.6671673, y: 0.65264773}
+  - {x: -1.5317122, y: 1.0687925}
+  - {x: -1.4414994, y: 1.273032}
+  - {x: -1.3578836, y: 1.3446422}
+  - {x: -1.2048688, y: 1.4693099}
+  - {x: -0.8793084, y: 1.6437036}
+  - {x: -1.089007, y: 1.7734224}
+  - {x: -1.2290471, y: 2.0272915}
+  - {x: -1.190075, y: 2.1213481}
+  - {x: -1.1000863, y: 2.1485014}
+  - {x: -1.0553854, y: 2.0262973}
+  - {x: -0.78507346, y: 1.8591487}
+  - {x: -0.65122294, y: 1.8199891}
+  - {x: -0.512449, y: 1.8250973}
+  - {x: -0.57948995, y: 1.998862}
+  - {x: -0.5667727, y: 2.1990979}
+  - {x: -0.50570655, y: 2.3096232}
+  - {x: -0.40243554, y: 2.3798976}
+  - {x: -0.3057115, y: 2.1069515}
+  - {x: -0.27136976, y: 1.8314219}
+  - {x: -0.1414316, y: 2.0323527}
+  - {x: -0.16797712, y: 2.3270206}
+  - {x: -0.12450385, y: 2.3847044}
+  - {x: 0.04565783, y: 2.2887726}
+  - {x: 0.13606137, y: 2.1725183}
+  - {x: 0.13675994, y: 2.0395494}
+  - {x: 0.0734908, y: 1.8574858}
+  - {x: 0.30342644, y: 1.9468981}
+  - {x: 0.4629809, y: 2.1661603}
+  - {x: 0.5315906, y: 2.1513066}
+  - {x: 0.5553347, y: 1.9885726}
+  - {x: 0.39377514, y: 1.7377108}
+  - {x: 0.6088072, y: 1.7957854}
+  - {x: 0.88386357, y: 2.0027518}
+  - {x: 0.9067923, y: 1.7649245}
+  - {x: 0.7862598, y: 1.5996897}
+  - {x: 1.3496405, y: 1.4491642}
+  - {x: 1.5925722, y: 1.1791612}
+  - {x: 1.6836267, y: 0.96701574}
+  - {x: 1.7465644, y: 0.5598004}
+  - {x: 1.6543037, y: 0.09447056}
+  - {x: 1.3783579, y: -0.37379062}
+  - {x: 1.1274916, y: -0.96348375}
+  - {x: 0.84652245, y: -1.6356834}
+  - {x: 0.49067798, y: -2.1517296}
+  - {x: 0.26445693, y: -2.2787995}
+  - {x: 0.11529708, y: -2.288933}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
