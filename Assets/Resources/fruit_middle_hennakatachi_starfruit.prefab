@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3168232783490453734}
   - component: {fileID: 1471408908658365680}
   - component: {fileID: 5379858518486475502}
+  - component: {fileID: 4374433872791412645}
   m_Layer: 0
   m_Name: fruit_middle_hennakatachi_starfruit
   m_TagString: Fruits
@@ -146,9 +147,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.12983084, y: -0.18328984}
   serializedVersion: 2
-  m_Radius: 2
+  m_Radius: 0.98426974
 --- !u!114 &5379858518486475502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161,3 +162,56 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 322994666d42cf24c81691f0e27d5670, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!68 &4374433872791412645
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1648102495692463707}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -2.31671, y: -0.13746737}
+  - {x: -1.5359045, y: -0.3762995}
+  - {x: -1.0410827, y: -0.65704924}
+  - {x: -1.0970752, y: -2.3282332}
+  - {x: -0.06401165, y: -1.6670458}
+  - {x: 0.3169923, y: -1.2878947}
+  - {x: 1.7362932, y: -1.8023484}
+  - {x: 1.5279051, y: -1.0119567}
+  - {x: 1.1582849, y: -0.43035808}
+  - {x: 2.2050192, y: 1.0064651}
+  - {x: 0.5561667, y: 0.89739716}
+  - {x: -0.52212095, y: 2.19105}
+  - {x: -0.7559452, y: 0.66310865}
+  - {x: -2.3113534, y: -0.10691896}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0

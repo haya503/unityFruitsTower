@@ -57,7 +57,7 @@ public class NextFruits2 : MonoBehaviour
 
     // 次のフルーツ(フルーツ1)の値設定
     private void nextFruits1ValueSet() {
-        Debug.Log("nextFruits1ValueSetとおり");
+        // Debug.Log("nextFruits1ValueSetとおり");
         NextFruits1.Instance.isNext = true;
         NextFruits1.Instance.fruitsPrehabIndex = fruitsNowPrehabIndex;
     }
